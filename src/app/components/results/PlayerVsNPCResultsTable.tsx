@@ -91,7 +91,7 @@ const PlayerVsNPCResultsTable: React.FC = observer(() => {
         <ResultRow calcKey="maxAttackRoll" title="The maximum attack roll based on your current gear (higher is better!)">
           Attack roll
         </ResultRow>
-        <ResultRow calcKey="npcDefRoll" title={"The NPC's defense roll (lower is better!)"}>
+        <ResultRow calcKey="npcDefRoll" title="The NPC's defense roll (lower is better!)">
           NPC def roll
         </ResultRow>
         <ResultRow calcKey="accuracy" title="How accurate you are against the monster">
