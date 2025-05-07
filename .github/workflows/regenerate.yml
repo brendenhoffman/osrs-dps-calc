@@ -2,8 +2,8 @@ name: Regenerate JSON
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 13 * * 3'
+  #schedule:
+    #- cron: '0 13 * * 3'
 
 concurrency:
   group: ${{ github.workflow }}
