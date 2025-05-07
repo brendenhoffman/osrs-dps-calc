@@ -27,6 +27,7 @@ const equipmentAliases = {
   21021: [24666], // Ancestral robe top
   24201: [24203], // Ancient halo#Normal
   27624: [27626], // Ancient sceptre#Normal
+  29818: [29822, 29820], // Araxyte slayer helmet (i)#Nightmare Zone
   11771: [26768, 25260], // Archers ring (i)#Nightmare Zone
   11830: [26716], // Armadyl chainskirt
   11802: [20368], // Armadyl godsword
@@ -76,6 +77,7 @@ const equipmentAliases = {
   26749: [26750], // Calamity chest#Normal
   26721: [26722], // Centurion cuirass#Normal
   3105: [23413], // Climbing boots
+  22711: [30593], // Collection log
   23975: [27769, 27745, 27757, 27697, 27721, 27709, 27733], // Crystal body#Active
   23977: [27771, 27747, 27759, 27699, 27723, 27711, 27735], // Crystal body#Inactive
   23971: [27777, 27753, 27765, 27705, 27729, 27717, 27741], // Crystal helm#Active
@@ -107,7 +109,7 @@ const equipmentAliases = {
   21015: [28682], // Dinh's bulwark
   28902: [28906], // Dizana's max cape#Normal
   7158: [28051], // Dragon 2h sword
-  6739: [25378], // Dragon axe
+  6739: [25378, 30352], // Dragon axe
   1377: [28037], // Dragon battleaxe
   11840: [28055, 22234], // Dragon boots
   3140: [28065, 12414], // Dragon chainbody
@@ -116,14 +118,14 @@ const equipmentAliases = {
   12954: [24143, 27008, 19722], // Dragon defender#Normal
   11335: [12417], // Dragon full helm
   3204: [28049], // Dragon halberd
-  21028: [25373], // Dragon harpoon
+  21028: [25373, 30349], // Dragon harpoon
   21012: [25918, 25916], // Dragon hunter crossbow
   21895: [22244], // Dragon kiteshield
   1305: [28033], // Dragon longsword
   1434: [28027], // Dragon mace
   1149: [28057], // Dragon med helm
   11920: [23677, 12797], // Dragon pickaxe
-  23677: [25376], // Dragon pickaxe (or)
+  23677: [25376, 30351], // Dragon pickaxe (or)
   21892: [22242], // Dragon platebody
   4087: [28061, 12415], // Dragon platelegs
   4585: [28063, 12416], // Dragon plateskirt
@@ -131,6 +133,10 @@ const equipmentAliases = {
   1187: [28059, 12418], // Dragon sq shield
   21009: [28029], // Dragon sword
   13576: [28035, 26710], // Dragon warhammer
+  30445: [30543, 30519, 30537, 30531, 30525], // Echo ahrim's hood#Undamaged
+  30449: [30547, 30523, 30541, 30535, 30529], // Echo ahrim's robeskirt#Undamaged
+  30447: [30545, 30521, 30539, 30533, 30527], // Echo ahrim's robetop#Undamaged
+  30568: [30574, 30570, 30573, 30572, 30571], // Echo ahrim's staff#Undamaged
   20595: [27119], // Elder chaos hood
   20520: [27117], // Elder chaos robe
   20517: [27115], // Elder chaos top
@@ -147,7 +153,7 @@ const equipmentAliases = {
   27550: [27551], // Ghommal's avernic defender 5#Normal
   27552: [27553], // Ghommal's avernic defender 6#Normal
   22324: [25734], // Ghrazi rapier
-  4153: [24225, 12848, 24227], // Granite maul#Normal
+  4153: [12848], // Granite maul#Normal
   21752: [26685, 25193], // Granite ring (i)#Nightmare Zone
   1135: [7370, 7372], // Green d'hide body
   1099: [7378, 7380], // Green d'hide chaps
